@@ -1,0 +1,44 @@
+@media screen and (max-width:576px) {
+    .nav-hamburger-menu {
+        display: block;
+        color: white;
+
+    }
+
+    .nav-btn-container {
+        display: none;
+    }
+
+    .banner-main {
+        flex-direction: column;
+
+    }
+
+    .banner-childs {
+        width: 100%;
+        position: relative;
+    }
+
+    .excercise-content {
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        margin: 0 auto;
+        /* padding-left: 30px; */
+
+    }
+
+    .image-content {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+
+    }
+
+    .extra{
+        flex-direction: column;
+      }
+   .run-easily{
+     width: 100%;
+   }
+}

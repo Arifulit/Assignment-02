@@ -1,0 +1,449 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+  font-family: miama;
+  font-style: italic;
+  font-weight: 400;
+  src: local('Miama'), url(https://fonts.cdnfonts.com/s/302/Miama-Regular.woff) format('woff')
+}
+:root {
+  --orange-color: #da722c;
+  --dark-blue-color: #101a1f;
+
+  --light-color: #e8f7fb;
+  --light-blue-color: #6f7dfb;
+}
+
+.btn.light {
+  background: var(--orange-color);
+}
+
+.btn-content .enrol-icon1 {
+  width: 224px;
+  height: 54px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 40px 16px 40px;
+  text-decoration: none;
+
+}
+.btn-content .enrol-icon2 {
+  width: 224px;
+  height: 54px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 40px 16px 40px;
+  text-decoration: none;
+  background: none;
+  border: 2px solid white;
+
+}
+
+.btn-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+  gap: 8px;
+}
+
+
+.btn.enrol-icon1::before {
+  /* content: url("images/enrol-now-icon.svg"); */
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  transform: translateY(-50%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: black;
+  font-family: "Inter", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 2px solid salmon;
+  
+}
+
+/* navber css start here */
+.navbar-wrapper{
+  /* background-color:rgba(16, 15, 15, 0.947) ; */
+}
+
+.navber-main{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0px;
+}
+.nav-menu-btn{
+  background-color:rgba(16, 15, 15, 0.947) ;
+  color: white;
+  padding: 5px;
+  margin-left: 45px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+border-radius: none;
+  
+}
+.logo{
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+  font-style: italic;
+}
+.btn {
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  width: 92px;
+  height: 38px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px 8px 20px;
+  color: white;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li a {
+  font-weight:400;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+.nav-links {
+  display: flex;
+  width: 465px;
+  height: 46px;
+  right: 500px;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 2px solid rgba(124, 122, 122, 0.491);
+  border-radius: 39px;
+}
+.nav-hamburger-menu {
+  display: none;
+}
+/* navber css end here */
+
+/* banner css start here */
+   .main-content{
+    max-width: 1060px;
+    margin: 0 auto;
+    min-height: 580px;
+    /* border: 2px solid red; */
+   }
+
+   .banner-childs{
+    width: 50%;
+    /* border: 2px solid green; */
+    position: relative;
+   }
+   .banner-childs img{
+    width: 50%;
+   }
+   .banner-main{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     
+   }
+   .banner-main .banner-childs h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 78px;
+    line-height: 120%;
+   color: white;
+    margin-bottom: 0;
+   }
+   .banner-main .banner-childs p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    margin-bottom: 30px;
+    width: 457px;
+    color: white;
+   }
+   .banner-childs img{
+    position: relative;
+  width: max-content;
+  height: 580px;
+  left: 25%;
+
+  top: 0px;
+   }
+
+   .italic {
+    font-style: italic;
+    font-family: 'Miama', sans-serif;
+  }
+  .health-section p{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .five-hundred{
+    position: absolute;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    width: 193px;
+    padding: 8px 32px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    margin: 0 auto;
+    top: 30%;
+    left: 70%;
+  }
+  .five-hundred h2{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .three-hundred{
+    position: absolute;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    width: 210px;
+    height: 100px;
+    padding: 8px 22px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    /* padding: 0 auto; */
+    display: flex;
+    /* flex-direction: column; */
+    top: 75%;
+    
+  }
+  .three-hundred h2{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .three-hundred .hundred{
+    position: absolute;
+   width: 30px;
+   height: 30px;
+   background: rgb(230, 83, 60);
+   border-radius: 100%;
+  }
+/* banner css end here */
+
+.habit{
+  max-width: 1060px;
+  margin: 0 auto;
+  padding-top: 50px;
+  /* border: 2px solid red; */
+
+}
+
+.content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+
+}
+
+.content h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.content p {
+  font-weight: 400;
+  font-size: 14px; 
+   color:rgba(255, 255, 255, 0.5); 
+   
+}
+
+.excercise-content {
+  display: flex;
+  justify-content:space-evenly;
+  /* align-items: center; */
+  justify-content: center;
+  /* border-radius: 100%; */
+
+}
+.excercise-content img{
+
+  border-radius: 100%;
+}
+
+
+.text-modify {
+  
+  width: 231px;
+  height: 64px;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.text-modify p {
+  color:rgba(255, 255, 255, 0.5)
+}
+.excercise-content .image-content{
+  width: 100%;
+  height: 100%;
+  
+  
+}
+
+/* run and extra css style start */
+
+.run-mile{
+  max-width: 1060px;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+  margin-top: 60px;
+}
+.run-easily{
+  width: 50%;
+  /* border: 2px solid red; */
+}
+.run-easily img{
+  width: 100%;
+  border-radius: 18px;
+  object-fit: none;
+ object-position: 70% 30%;
+}
+.run-btn{
+  margin-top: 10px;
+}
+.extra{
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background: rgb(34, 34, 34);
+  border-radius: 18px;
+}
+.run-easily h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.run-easily p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Bmi calculator section start */
+.calculator-content{
+  color: white;
+  width: 671px;
+  margin: 0 auto;
+ height: 120px;
+}
+.calculator-text{
+  display: flex;
+  flex-direction: column;
+}
+.calculator-text p{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.calculator-text h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.bmi-section{
+   background: rgb(34, 34, 34); 
+  width: 1440px;
+  height: auto;
+  /* border: 2px solid  yellowgreen; */
+  /* margin-top: -100px; */
+}
+
+.calculator-section{
+  background: rgb(34, 34, 34);
+  display: flex;
+  max-width: 1060px;
+
+margin: 0 auto;
+gap: 100px;
+
+}
+.calculator-chart h1{
+  width: 443px;
+  height: 34px;
+  color: white;
+}
+.calculator-chart table{
+  width: 310px;
+height: 216px;
+left: 189px;
+right: 941px;
+/* border: 2px solid white; */
+}
+.calculator-chart table th{
+  color: white;
+}
+
+.calculator-chart table td{
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.calculator-chart table th, td{
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+.calculator-bmi{
+  
+  width: 577px;
+  height: 386px;
+  left: 674px;
+  top: -100px;
+  
+  }
+  .calculator-bmi h1{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+  color: white;
+  }
+  .calculator-bmi p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+/* Bmi calculator section end */
