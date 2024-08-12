@@ -29,6 +29,7 @@
   align-items: flex-start;
   padding: 16px 40px 16px 40px;
   text-decoration: none;
+  margin-bottom: 10px;
 
 }
 .btn-content .enrol-icon2 {
@@ -45,12 +46,25 @@
   border: 2px solid white;
 
 }
+.enrol-icon3{
+  width: 280px;
+  height: 34px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 40px 16px 40px;
+  text-decoration: none;
+  background: rgb(230, 83, 60);
+  border: 1px solid rgb(136, 132, 132);
+  margin-top: 10px;
+}
 
 .btn-content {
   display: flex;
   flex-direction: row;
   justify-content: left;
-
   gap: 8px;
 }
 
@@ -78,9 +92,7 @@ body{
 }
 
 /* navber css start here */
-.navbar-wrapper{
-  /* background-color:rgba(16, 15, 15, 0.947) ; */
-}
+
 
 .navber-main{
   display: flex;
@@ -362,11 +374,68 @@ nav ul li a {
 }
 
 /* Bmi calculator section start */
+
+.bmi-section{
+  max-width: 1440px;
+  margin: 0 auto;
+  background: rgb(34, 34, 34);
+}
+
+.calculator-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items:start;
+  max-width: 1060px;
+  height: auto;
+  /* border: 2px solid red; */
+  margin: 0 auto; 
+  margin-top: 40px;
+  padding: 20px;
+}
+.calculator-chart{
+  width: 48%;
+  /* border: 2px solid green; */
+}
+.calculator-bmi{
+  width: 48%;
+  margin-top: 20px;
+  /* border: 2px solid blue; */
+  }
+
+  .form-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .form-field{
+     width: 48%;
+    /* border: 2px solid red; */
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+  }
+
+  .form-field-text-area{
+    width: 100%;
+    border-radius: 8px;
+  }
+ .form-container input, textarea,select{
+   border: rgba(255, 255, 255, 0.1);
+   width: 100%;
+   height: 35px;
+   margin-top: 10px;
+   background: rgba(255, 255, 255, 0.1);
+   color: rgba(255, 255, 255, 0.6);
+ }
+
 .calculator-content{
   color: white;
   width: 671px;
   margin: 0 auto;
- height: 120px;
+  margin-top: 40px;
+   /* height: 120px; */
 }
 .calculator-text{
   display: flex;
@@ -382,23 +451,7 @@ nav ul li a {
   font-weight: 900;
 }
 
-.bmi-section{
-   background: rgb(34, 34, 34); 
-  width: 1440px;
-  height: auto;
-  /* border: 2px solid  yellowgreen; */
-  /* margin-top: -100px; */
-}
 
-.calculator-section{
-  background: rgb(34, 34, 34);
-  display: flex;
-  max-width: 1060px;
-
-margin: 0 auto;
-gap: 100px;
-
-}
 .calculator-chart h1{
   width: 443px;
   height: 34px;
@@ -424,14 +477,7 @@ right: 941px;
   border: 1px solid rgba(255, 255, 255, 0.1)
 }
 
-.calculator-bmi{
-  
-  width: 577px;
-  height: 386px;
-  left: 674px;
-  top: -100px;
-  
-  }
+
   .calculator-bmi h1{
     font-family: Inter;
     font-size: 28px;
@@ -446,4 +492,112 @@ right: 941px;
     font-weight: 400;
     line-height: 24px;
   }
+
+
+  
 /* Bmi calculator section end */
+
+
+/* Meet our team section style start */
+
+.image-section{
+  max-width: 1065px;
+  margin: 0 auto;
+  /* border-radius: 18px; */
+  background: rgba(255, 255, 255, 0.1);
+  /* border: 2px solid red; */
+  padding: 5px;
+  margin-top: 40px;
+  }
+.team-content{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.team-content p{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.team-image{
+  gap: 16px;
+}
+.row-1,
+.row-2{
+  display: grid;
+  gap: 20px;
+  
+  grid-template-columns: 1fr  1fr  1fr;
+  margin: 1rem 0;
+
+  /* gap: 1rem; */
+}
+.team-image{
+  position: relative;
+}
+
+
+.position-name{
+  position: absolute;
+  /* color: white; */
+  top: 180px;
+  right: 250px;
+ 
+  font-size: 20px;
+ 
+  /* font-weight: bold; */
+
+}
+.position-name1{
+  position: absolute;
+  /* color: white; */
+  top: 180px;
+  right: 230px;
+  font-size: 20px;
+}
+
+.position-name0{
+  position: absolute;
+  right: 200px;
+
+}
+.position-name00{
+  position: absolute;
+  right:200px ;
+}
+
+
+.position-name2{
+
+position: absolute;
+  /* color: white; */
+  top: 180px;
+  right: 210px;
+  font-size: 20px;
+
+}
+.position-name3{
+  position: absolute;
+  /* color: white; */
+  top: 180px;
+  right: 210px;
+  font-size: 20px;
+  color: white;
+}
+
+.position-name, .position-name1, .position-name2 h3{
+  color: white;
+}
+.position-name p, .position-name1 p, .position-name2 p, .position-name3 p{
+  color: #a5a0a0;
+}
+.team-image img{
+  width: 100%;
+height: 260px;
+border-radius: 18px;
+}
+
+
+
+/* Meet our team section style end */
