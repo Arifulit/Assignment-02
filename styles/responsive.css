@@ -23,6 +23,7 @@
     flex-direction: column;
     justify-content: center;
     /* border-radius: 100%; */
+    margin-bottom: -30px;
   }
 
   .image-content {
@@ -41,7 +42,7 @@
   }
 
   .run-easily {
-    width: 100%;
+    width: 90%;
   }
 
   .calculator-section {
@@ -76,6 +77,12 @@
   .image-content img{
     width: 50%;
     height: 50%;
+  }
+  .team-image img{
+    width: 80%;
+    margin-left: 40px;
+    border-radius: 18px;
+  
   }
 
   .row-1,

@@ -34,7 +34,7 @@ body{
   font-family: "Inter", sans-serif;
   max-width: 1440px;
   margin: 0 auto;
-  border: 2px solid salmon;
+  /* border: 2px solid salmon; */
 
 }
 
@@ -451,11 +451,12 @@ font-weight: 400;
 }
 .calculator-chart{
   width: 48%;
+  margin-top: 10px;
   /* border: 2px solid green; */
 }
 .calculator-bmi{
   width: 48%;
-  margin-top: 20px;
+  margin-top: 30px;
   /* border: 2px solid blue; */
   }
 
@@ -465,17 +466,28 @@ font-weight: 400;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
   }
   .form-field{
-     width: 48%;
+     width: 49%;
     /* border: 2px solid red; */
     color: rgba(255, 255, 255, 0.6);
     border-radius: 16px;
+  }
+  .border1 input{
+    
+    height: 100%;
+    border-radius: 8px;
+  }
+  .border1 select{
+    width: 100%;
+    border-radius: 8px;
   }
 
   .form-field-text-area{
     width: 100%;
     border-radius: 8px;
+    margin-bottom: 10px;
   }
  .form-container input, textarea,select{
    border: rgba(255, 255, 255, 0.1);
@@ -491,17 +503,16 @@ font-weight: 400;
   width: 671px;
   margin: 0 auto;
   margin-top: 40px;
-   /* height: 120px; */
-}
-.calculator-text{
   display: flex;
   flex-direction: column;
+   /* height: 120px; */
 }
-.calculator-text p{
+
+.calculator-content p{
   color: rgba(255, 255, 255, 0.5);
 }
 
-.calculator-text h1{
+.calculator-content h1{
   font-family: 'Inter', sans-serif;
   font-size: 48px;
   font-weight: 900;
@@ -511,13 +522,17 @@ font-weight: 400;
 .calculator-chart h1{
   width: 443px;
   height: 34px;
-  color: white;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
 }
 .calculator-chart table{
   width: 310px;
 height: 216px;
 left: 189px;
 right: 941px;
+margin-top: 20px;
 /* border: 2px solid white; */
 }
 .calculator-chart table th{
@@ -547,6 +562,7 @@ right: 941px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    margin-top: 10px;
   }
 
 
@@ -559,7 +575,7 @@ right: 941px;
 .image-section{
   max-width: 1065px;
   margin: 0 auto;
-  /* border-radius: 18px; */
+  border-radius: 18px;
   background: rgba(255, 255, 255, 0.1);
   /* border: 2px solid red; */
   padding: 5px;
