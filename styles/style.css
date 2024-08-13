@@ -15,6 +15,17 @@
   --light-blue-color: #6f7dfb;
 }
 
+
+
+/* *{
+  border: 1px solid red;
+}
+body{
+  border: 5px dashed green;
+} */
+
+
+
 .btn.light {
   background: var(--orange-color);
 }
@@ -221,10 +232,11 @@ nav ul li a {
   }
   .five-hundred{
     position: absolute;
-    color: white;
+    
     background: rgba(255, 255, 255, 0.1);
-    width: 193px;
-    padding: 8px 32px;
+    width: 150.91px;
+    height: 74.09px;
+    /* padding: 8px 32px; */
     align-items: center;
     justify-content: center;
     border-radius: 24px;
@@ -233,15 +245,23 @@ nav ul li a {
     left: 70%;
   }
   .five-hundred h2{
-    font-size: 40px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 30px;
     font-weight: bold;
   }
+  .five-hundred p{
+    color: rgba(100, 79, 79, 0.65);
+
+  }
+
   .three-hundred{
     position: absolute;
     color: white;
     background: rgba(255, 255, 255, 0.1);
-    width: 210px;
-    height: 100px;
+    width: 155.74px;
+    height: 72.58px;
     padding: 8px 22px;
     align-items: center;
     justify-content: center;
@@ -249,19 +269,22 @@ nav ul li a {
     /* padding: 0 auto; */
     display: flex;
     /* flex-direction: column; */
-    top: 75%;
+    top: 78%;
+    left:20%; ;
     
   }
   .three-hundred h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
   }
   .three-hundred .hundred{
-    position: absolute;
+    position: relative;
    width: 30px;
    height: 30px;
    background: rgb(230, 83, 60);
    border-radius: 100%;
+   right: 40%;
+   top: -10px;
   }
 /* banner css end here */
 
@@ -296,39 +319,54 @@ nav ul li a {
    
 }
 
-.excercise-content {
-  display: flex;
-  justify-content:space-evenly;
-  /* align-items: center; */
-  justify-content: center;
-  /* border-radius: 100%; */
 
+.excercise-content {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  /* border: 2px solid red; */
+  /* border-radius: 100%; */
 }
-.excercise-content img{
+
+.image-content{
+  
+ width: 231px;
+ height: 274px;
+ overflow: hidden;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ /* margin: 20px; */
+}
+.image-content img{
 
   border-radius: 100%;
+  width: 70%;
+  height: auto;
+  
+  /* object-fit: cover; */
 }
 
 
-.text-modify {
+.image-content.text-modify {
   
-  width: 231px;
-  height: 64px;
-   display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
+  text-align: center;
+  padding: 18px;
 }
 
 .text-modify p {
-  color:rgba(255, 255, 255, 0.5)
+  color:rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
-.excercise-content .image-content{
-  width: 100%;
-  height: 100%;
-  
-  
+.text-modify h4 {
+  color:white;
+  text-align: center;
+
 }
+
 
 /* run and extra css style start */
 
@@ -601,3 +639,91 @@ border-radius: 18px;
 
 
 /* Meet our team section style end */
+
+
+
+
+/* footer section style start */
+
+footer {
+  background: rgba(255, 255, 255, 0.1);
+  max-width: 1440px;
+  margin-top: 80px;
+  
+}
+
+footer .links-container {
+  position: relative;
+  /* border: 2px solid red; */
+  max-width: 1060px;
+  /* height: 489px; */
+  margin-top: 80px;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  
+}
+.links{
+  width: 36%;
+}
+.footer-content{
+  
+}
+footer hr {
+  border: 1px solid rgba(195, 186, 186, 0.699);
+ 
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.footer-content h1{
+  color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 70px;
+font-weight: 800;
+font-style: italic;
+}
+.footer-content p{
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer h3 {
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+footer ul li {
+  margin: 16px 0;
+}
+footer .copyright {
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+top: 430px;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+/* footer section style end */

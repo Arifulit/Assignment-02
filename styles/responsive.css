@@ -1,68 +1,103 @@
 @media screen and (max-width:576px) {
-    .nav-hamburger-menu {
-        display: block;
-        color: white;
+  .nav-hamburger-menu {
+    display: block;
+    color: white;
 
-    }
-
-    .nav-btn-container {
-        display: none;
-    }
-
-    .banner-main {
-        flex-direction: column;
-
-    }
-
-    .banner-childs {
-        width: 100%;
-        position: relative;
-    }
-
-    .excercise-content {
-        flex-direction: column;
-        /* align-items: center; */
-        justify-content: center;
-        margin: 0 auto;
-        /* padding-left: 30px; */
-
-    }
-
-    .image-content {
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-
-    }
-
-    .extra{
-        flex-direction: column;
-      }
-   .run-easily{
-     width: 100%;
-   }
-
-   .calculator-section{
-       flex-direction: column;
-       height: auto;
-   }
-   .calculator-chart{
-    width: 100%;
-    
   }
-  .calculator-bmi{
-  
-    width: 100%;
-    
-    }
-    .team-image img{
-        width: 100%;
-     
-      }
-    .row-1,
-    .row-2{
 
-  grid-template-columns: 1fr;
- /* gap: 1rem; */
-}
+  .nav-btn-container {
+    display: none;
+  }
+
+  .banner-main {
+    flex-direction: column;
+
+  }
+
+  .banner-childs {
+    width: 100%;
+    position: relative;
+  }
+
+  .excercise-content {
+    flex-direction: column;
+    justify-content: center;
+    /* border-radius: 100%; */
+  }
+
+  .image-content {
+
+    justify-content: center;
+
+  }
+  .image-content img {
+    width: 100%;
+    height: 100%;
+    /* padding-left: 10px; */
+  }
+
+  .extra {
+    flex-direction: column;
+  }
+
+  .run-easily {
+    width: 100%;
+  }
+
+  .calculator-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .calculator-chart {
+    width: 100%;
+
+  }
+
+  .calculator-bmi {
+
+    width: 100%;
+
+  }
+
+  .team-image img {
+    width: 100%;
+
+  }
+
+  
+  .excercise-content {
+    
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* border-radius: 100%; */
+  }
+  .image-content img{
+    width: 50%;
+    height: 50%;
+  }
+
+  .row-1,
+  .row-2 {
+    grid-template-columns: 1fr;
+  
+  }
+
+
+  .links-container {
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-gap: 3rem; */
+    /* padding: 2.5rem 0; */
+  }
+
+  .container h2 {
+    font-size: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  footer {
+    /* position: absolute; */
+    top: 30%;
+  }
 }
