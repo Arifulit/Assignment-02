@@ -85,19 +85,13 @@
   }
 
 
-  .links-container {
-    grid-template-columns: repeat(1, 1fr);
-    /* grid-gap: 3rem; */
-    /* padding: 2.5rem 0; */
+  .container{
+    flex-direction: column;
   }
-
-  .container h2 {
-    font-size: 3rem;
-    padding-bottom: 4rem;
-  }
-
-  footer {
-    /* position: absolute; */
-    top: 30%;
-  }
+   .banner-main1 {
+    flex-direction: column;
+   }
+   .banner-childs1{
+    width:100%;
+   }
 }
